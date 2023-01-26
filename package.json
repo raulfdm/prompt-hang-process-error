@@ -1,0 +1,11 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "cancel:on": "node src/on-cancel.mjs",
+    "cancel:off": "node src/no-on-cancel.mjs"
+  },
+  "dependencies": {
+    "prompts": "2.4.2"
+  }
+}
